@@ -1,0 +1,40 @@
+ASSET CREDITS / 素材致谢
+Jialong Ouyang / 欧阳嘉隆 | 2026-10-10
+
+DESIGN AND IMPLEMENTATION / 设计与实现
+Encounter goals, mechanics, tuning choices and iteration direction: Jialong Ouyang. AI assisted Unreal/Blueprint implementation, geometric assembly, project materials, UI, documentation and technical checks.
+欧阳嘉隆负责关卡目标、机制、参数取舍与迭代方向；AI辅助Unreal/Blueprint实现、几何体组合、项目内材质、界面、文档及技术检查。
+
+ENGINE GEOMETRY / 引擎几何体
+Epic Games / Unreal Engine BasicShapes: Cube, Sphere, Cylinder and Cone. Bosses, arena structures, platforms, props and many feedback shapes combine these built-in meshes; the underlying meshes are not claimed as original artwork.
+Boss、场地、平台、道具及多种反馈形状由Unreal内置Cube、Sphere、Cylinder、Cone组合。组合布局与材质在项目内制作，基础网格不主张原创。
+Reference / 路径：/Engine/BasicShapes/
+
+CHARACTERS AND ANIMATION / 角色与动画
+Existing Epic Manny/mannequin and Unarmed assets: SKM_Manny_Simple, ABP_Unarmed and MM_Attack_01/02/03. These are reused character and placeholder attack assets, not newly authored models or animation. They were already in the original project; the exact imported package was not recorded.
+沿用原工程已有Epic Manny人形及Unarmed动画：SKM_Manny_Simple、ABP_Unarmed、MM_Attack_01/02/03，作为角色与占位攻击动作，不主张原创人物或动作。具体导入包未记录。
+References / 路径：
+  /Game/Characters/Mannequins/Meshes/SKM_Manny_Simple
+  /Game/Characters/Mannequins/Anims/Unarmed/
+
+GUARDIAN KNOCKDOWN / 守卫冲撞倒地
+A_GuardianKnockdown_InPlace is a project-local, root-locked copy of the existing MM_Death_Back_01 sequence. The prototype samples it forward for the fall and backward for recovery, while Blueprint rotates the character mesh up to 90 degrees and applies up to 35 cm of vertical compensation to make the downed pose visible above the floor. The shared source animation is unchanged. This is a reused and procedurally adapted animation, not a newly authored fall/get-up sequence or new motion capture. The exact package originally imported into the project remains unrecorded.
+A_GuardianKnockdown_InPlace是已有MM_Death_Back_01的项目内锁根副本。原型正向采样表现跌倒、反向采样恢复，同时由蓝图将人物网格倾倒最多90度并提供最多35厘米高度补偿，让倒地姿态清楚显示在地面之上。共享源动作未修改。这是复用与程序化适配，不是本次原创跌倒/起身动画或新增动作捕捉；原工程具体导入包仍未记录。
+Source / 源资源：/Game/Characters/Mannequins/Anims/Death/MM_Death_Back_01
+Project copy / 项目副本：/Game/Step04/A_GuardianKnockdown_InPlace
+
+PROJECT MATERIALS AND UI / 项目材质与界面
+Encounter-specific color, emissive and transparent materials, geometric state markers, HUD and result forms were assembled in the project with AI assistance. No downloaded texture maps or third-party model packs were added in the documented three-encounter work.
+三关配色、发光与透明材质、状态标记、HUD和结算界面在项目内制作，使用AI辅助。已记录的三关制作未新增下载贴图或第三方模型包。
+References / 路径：/Game/Step04/Materials/、/Game/Step05/Materials/、/Game/Step06/Materials/、/Game/Step08/SkillFX/
+
+TYPOGRAPHY / 字体
+Game HUD: Unreal's existing Roboto resource and font fallback chain.
+Video captions/cards: Segoe UI and Microsoft YaHei.
+Resume PDF: Calibri and Microsoft YaHei.
+Website: system font stack. No standalone font files are bundled.
+游戏HUD沿用引擎Roboto及字体回退；视频图文使用Segoe UI、微软雅黑；简历PDF使用Calibri、微软雅黑；网页使用系统字体栈，不打包独立字体文件。
+
+CONTEXT / 作品性质
+An independent design portfolio for a Project R.I.S.E application, not official Supercell content. No models were extracted from R.I.S.E. Footage is an arranged demonstration of this local prototype, not external-player testing.
+本作品为面向Project R.I.S.E岗位申请的个人设计原型，非Supercell官方内容，未使用从R.I.S.E提取的模型。视频为本地原型的编排演示，不是外部玩家试玩。

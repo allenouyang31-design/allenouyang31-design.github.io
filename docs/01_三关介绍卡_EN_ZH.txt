@@ -1,0 +1,66 @@
+三关视频介绍卡 / Encounter introduction cards
+2026-10-10 | 新版视频文字稿
+
+剪辑使用方式
+每关开场停留12秒。EN与ZH左右对照，各4条短文本、按同一含义对齐为4行；观众任选一种语言阅读，无需读完两种。不制作两条独立影片。关卡序号、名称可放固定章标题位置。
+可读时长是排版建议，须用最终字号、画幅和正常速度预览确认；若单行换行，优先精简或调整布局，不缩小到难读字号。
+“难度定位”指三关之间预设的学习负担，不是已测得的通关难度、胜率或R.I.S.E官方分级。目标人群也是设计假设。
+
+01 | 破城守卫 / Breach Guardian
+ZH（4行）
+玩法：引导撞柱，判断何时回身进攻。
+验证目的：预警判断、站位与反击窗口。
+目标人群：初学 Boss 机制的动作玩家。
+难度设计定位：入门
+
+EN (4 lines)
+Play: Redirect a charge, then re-engage.
+Test: Telegraphs, positioning and openings.
+Audience: Players learning boss mechanics.
+Intended difficulty: Introductory
+
+卡片后的实机顺序
+先显示正常交战，再完整保留跟随预警、方向锁定、离开路径、撞柱破坏、眩晕易伤与回身攻击。随后至少给一次普通收招进攻，表达不必只等柱子。
+本关游戏配置为1真人；无通用闪避。柱子有限，成功碰撞后消耗。本轮已验收冲锋规则伤害2、玩家倒地0.8秒；Boss撞柱仍为3.2秒眩晕和1.5倍易伤。本连续版沿用已验收原型；新版主片已导出，约3分24秒（203.9秒）；第三关独立原片约1分24秒（83.8秒）。两份视频均通过全片解码检查。
+
+02 | 熔炉监工 / Furnace Overseer
+ZH（4行）
+玩法：带爆炸清炉工，同时兼顾队友。
+验证目的：个人任务、持续输出与全队代价。
+目标人群：开始接触组队机制的玩家。
+难度设计定位：进阶
+
+EN (4 lines)
+Play: Clear workers; protect teammates.
+Test: Task execution, damage uptime and team cost.
+Audience: Players new to group mechanics.
+Intended difficulty: Intermediate
+
+卡片后的实机顺序
+保留点名、倒计时、移动、爆炸及清理结果；另展示一次未清理造成的全场地热，清楚区分“爆炸不伤自己”和“自己仍会受到地热伤害”。清理成功与误伤可以同时发生，不能剪成互斥结果。
+游戏配置为1真人+2AI，本片可控角色由脚本操作。默认点名可控角色；AI行动不能作为真人合作成功的证明。地热固定强度、刷新不叠层；本轮平衡参数未变。
+
+03 | 疫沼领主 / Plague Lord
+ZH（4行）
+玩法：登台选目标，清核后返回进攻。
+验证目的：空间压力下的目标与构筑选择。
+目标人群：会读预警、愿意比较技能的玩家。
+难度设计定位：复杂度较高
+
+EN (4 lines)
+Play: Relocate, choose targets, return.
+Test: Build choices under spatial pressure.
+Audience: Players comfortable with telegraphs.
+Intended difficulty: Higher complexity
+
+卡片后的实机顺序
+第三关使用同一场次原速连续画面：保留两轮平台预告、转移、升台、核心与小怪的选择、Q技能回应、清核退潮、降台与回攻，直到实际击杀和本局结算。不插入其他场次Q，不跳过击杀；另附media/plague-full-run.mp4完整原片。
+实际为1真人+2AI。三种构筑同为基础近战射程，差异集中于Q；不是三种远近程职业，也不是固定坦克/治疗/输出岗位。
+
+建议全片共用开头或结尾声明（无需每关反复）
+ZH：首次Unreal项目；本人主导设计，AI辅助实现。编排演示，非玩家测试；结构化外部试玩0人。
+EN: First Unreal project; author-led design, AI-assisted implementation. Staged demonstration, not player testing. Structured external participants: 0.
+
+叙述口径
+可以说“本关希望验证”“这段展示”。没有新证据时不要说“证明玩家能理解”“已平衡”“大多数玩家喜欢”。具体操作者若为自动脚本，视频标记编排/自动演示，不称真人实际操作。
+面试视频可以解释机制；探索性首次试玩不要先播放完整讲解视频，否则已获得机制答案，需另记引导条件。
